@@ -28,7 +28,8 @@ header .contacts-link:hover,
 header .contacts-link:focus{
     color: #2196f3;
 }
-header .contacts-link{
+header .contacts-link,
+main .text{   
     color:#757575;
 }
 /* main section */
@@ -42,5 +43,10 @@ main {
 }
 .hero-link{
     background-color: #2196f3;
+    color: #ffffff;
+}
+
+/* what-we-are-doing-section */
+.production-title{
     color: #ffffff;
 }
