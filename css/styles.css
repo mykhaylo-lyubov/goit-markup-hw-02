@@ -63,9 +63,9 @@ main {
 .hero-title{
     color: #ffffff;
 }
-.hero-link{
-    background-color: #2196f3;
-    color: #ffffff;
+.button{
+    background-color: var(--accent-color);
+    color: var(--text-on-the-button-color);
 }
 
 /* what-we-are-doing-section */
@@ -80,7 +80,7 @@ main {
 }
 
     /* is it allowed to use hover and focus like that,
-or necessary apply to each link separately */
+or necessary apply to each link separately?? */
 
 .social-links > li:hover,
 .social-links > li:focus{
@@ -102,12 +102,8 @@ or necessary apply to each link separately */
 }
 .address,
 .social-links-title,
-.subscribe-title,
-.subscription-button{
+.subscribe-title{
     color: var(--text-on-the-button-color);
-}
-.subscription-button{
-    background-color: var(--accent-color);
 }
 .footer-contacts{
     color: rgba(255, 255, 255, 0.6)
