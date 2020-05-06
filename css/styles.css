@@ -50,3 +50,13 @@ main {
 .production-title{
     color: #ffffff;
 }
+/* our-team */
+.profession-title{
+    color: #757575;
+}
+/* is it allowed to use hover and focus like that,
+or necessary apply to each link separately */
+.social-links > li:hover,
+.social-links > li:focus{
+    background-color: #2196f3;
+}
