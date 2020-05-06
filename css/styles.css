@@ -9,3 +9,38 @@
 /* social links primary background: rgba(255, 255, 255, 0.1); */
 /* dev string color: rgba(255, 255, 255, 0.4); */
 
+/* header  */
+.header-title-logo{
+    color: #2196f3;
+}
+.header-title-logo:focus{
+    color: #F93106;
+}
+.header-title-studio{
+    color: #212121;
+}
+header .list-link{
+    color: #212121;
+}
+header .list-link:hover,
+header .list-link:focus,
+header .contacts-link:hover,
+header .contacts-link:focus{
+    color: #2196f3;
+}
+header .contacts-link{
+    color:#757575;
+}
+/* main section */
+main {
+    color: #212121;
+}
+
+/* hero section */
+.hero-title{
+    color: #ffffff;
+}
+.hero-link{
+    background-color: #2196f3;
+    color: #ffffff;
+}
