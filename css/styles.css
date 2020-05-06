@@ -1,43 +1,65 @@
-/* palette */
+/* 
+palette 
 
-/* accent color #2196F3 */
-/* primary text color #212121 */
-/* secondary text color #757575 */ 
-/* white text #FFFFFF */
- /* primary features color #F5F4FA */
-/* footer address color: rgba(255, 255, 255, 0.6); */
-/* social links primary background: rgba(255, 255, 255, 0.1); */
-/* dev string color: rgba(255, 255, 255, 0.4); */
+accent color #2196F3
+primary text color #212121
+secondary text color #757575 
+white text #FFFFFF
+ primary features color #F5F4FA
+footer address color: rgba(255, 255, 255, 0.6);
+social links primary background: rgba(255, 255, 255, 0.1);
+dev string color: rgba(255, 255, 255, 0.4);
+backgroung for the features: #F5F4FA
+background for the footer: #2F303A */
+
+:root {
+    --accent-color: #2196F3;
+    --primary-text-color: #757575;
+    --primary-title-color: #212121;
+    --text-on-the-button-color: #ffffff;
+}
+
+
+.page{
+    background-color: #ffffff;
+}
+.list{
+    list-style: none;
+}
 
 /* header  */
-.header-title-logo{
-    color: #2196f3;
+
+.logo-link{
+    color: var(--accent-color);
 }
-.header-title-logo:focus{
-    color: #F93106;
-}
-.header-title-studio{
+.logo-link-word-studio{
     color: #212121;
 }
-header .list-link{
-    color: #212121;
+    /* why focus doesnt apply to complete logo?? */
+.logo-link:focus{
+    color: red;
 }
-header .list-link:hover,
-header .list-link:focus,
-header .contacts-link:hover,
-header .contacts-link:focus{
-    color: #2196f3;
+.site-nav .link{
+    color: var(--primary-title-color);
 }
-header .contacts-link,
-main .text{   
-    color:#757575;
+.site-nav .link:hover,
+.site-nav .link:focus,
+.auth-nav .link:hover,
+.auth-nav .link:focus{
+    color: var(--accent-color);
+}
+.auth-nav .link,
+main .text{
+    color: var(--primary-text-color);
 }
 /* main section */
+
 main {
-    color: #212121;
+    color: var(--primary-title-color);
 }
 
 /* hero section */
+
 .hero-title{
     color: #ffffff;
 }
@@ -47,42 +69,50 @@ main {
 }
 
 /* what-we-are-doing-section */
-.production-title{
-    color: #ffffff;
+
+.production .title{
+    color: var(--text-on-the-button-color);
 }
+
 /* our-team */
-.profession-title{
-    color: #757575;
+.team .profession{
+    color: var(--primary-text-color);
 }
+
     /* is it allowed to use hover and focus like that,
 or necessary apply to each link separately */
+
 .social-links > li:hover,
 .social-links > li:focus{
-    background-color: #2196f3;
+    background-color: var(--accent-color);
 }
+
 /* clients */
 
 /* footer */
-.logo-link{
-    color: #2196f3;
-}
+
 .logo-title-studio{
     color: #ffffff;
 }
-    /* why focus doesnt applied to complete logo */
-.logo-link:hover,
-.logo-title-studio:hover
+
+    /* why focus doesnt apply to complete logo?? */
+
 .logo-link:focus{
     color: red;
 }
 .address,
 .social-links-title,
-.subscribe-title{
-    color: #ffffff;
+.subscribe-title,
+.subscription-button{
+    color: var(--text-on-the-button-color);
+}
+.subscription-button{
+    background-color: var(--accent-color);
 }
 .footer-contacts{
     color: rgba(255, 255, 255, 0.6)
 }
+
 .authors{
     color: rgba(255, 255, 255, 0.4)
 }
