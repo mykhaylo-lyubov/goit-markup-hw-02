@@ -54,9 +54,35 @@ main {
 .profession-title{
     color: #757575;
 }
-/* is it allowed to use hover and focus like that,
+    /* is it allowed to use hover and focus like that,
 or necessary apply to each link separately */
 .social-links > li:hover,
 .social-links > li:focus{
     background-color: #2196f3;
+}
+/* clients */
+
+/* footer */
+.logo-link{
+    color: #2196f3;
+}
+.logo-title-studio{
+    color: #ffffff;
+}
+    /* why focus doesnt applied to complete logo */
+.logo-link:hover,
+.logo-title-studio:hover
+.logo-link:focus{
+    color: red;
+}
+.address,
+.social-links-title,
+.subscribe-title{
+    color: #ffffff;
+}
+.footer-contacts{
+    color: rgba(255, 255, 255, 0.6)
+}
+.authors{
+    color: rgba(255, 255, 255, 0.4)
 }
