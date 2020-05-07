@@ -17,6 +17,7 @@ background for the footer: #2F303A */
     --primary-text-color: #757575;
     --primary-title-color: #212121;
     --text-on-the-button-color: #ffffff;
+    --portfolio-body-nav-button-primary-color: #F5F4FA;
 }
 
 
@@ -36,7 +37,8 @@ background for the footer: #2F303A */
     color: #212121;
 }
     /* why focus doesnt apply to complete logo?? */
-.logo-link:focus{
+.logo-link:focus,
+.logo-link-word-studio:focus{
     color: red;
 }
 .site-nav .link{
@@ -79,11 +81,8 @@ main {
     color: var(--primary-text-color);
 }
 
-    /* is it allowed to use hover and focus like that,
-or necessary apply to each link separately?? */
-
-.social-links > li:hover,
-.social-links > li:focus{
+.social-links > li > a:hover,
+.social-links > li > a:focus{
     background-color: var(--accent-color);
 }
 
@@ -109,6 +108,40 @@ or necessary apply to each link separately?? */
     color: rgba(255, 255, 255, 0.6)
 }
 
+.footer-contacts:focus {
+    color: blue;
+}
+
 .authors{
     color: rgba(255, 255, 255, 0.4)
 }
+
+/* portfolio */
+
+/* additional colors for portfolio
+body-nav-button-primary-color #F5F4FA */
+
+.portfolio {
+    color: var(--primary-title-color);
+}
+
+.portfolio .nav-link {
+    color: var(--primary-title-color);
+    background-color: var(--portfolio-body-nav-button-primary-color);
+}
+
+/* why focus doesnt apply??  */
+.portfolio .nav-link:hover,
+.portfolio .nav-link:focus {
+    background-color: var(--accent-color);
+}
+
+.portfolio-preview .title {
+    color: var(--primary-title-color);
+}
+
+.portfolio .description {
+    color: var(--primary-text-color);
+}
+
+
