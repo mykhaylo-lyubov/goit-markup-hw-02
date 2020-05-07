@@ -33,12 +33,14 @@ background for the footer: #2F303A */
 .logo-link{
     color: var(--primary-title-color);
 }
-.logo-link-word-web{
+.logo-link-word-web,
+.logo-link-footer{
     color: var(--accent-color);
 }
     /* why focus doesnt apply to complete logo?? */
-.logo-link:focus{
-    color: red;
+.logo-link:focus,
+.logo-link-footer:focus{
+    color: var(--accent-color);
 }
 .site-nav .link{
     color: var(--primary-title-color);
@@ -89,15 +91,10 @@ main {
 
 /* footer */
 
-.logo-title-studio{
+.logo-link-word-studio{
     color: #ffffff;
 }
 
-    /* why focus doesnt apply to complete logo?? */
-
-.logo-link:focus{
-    color: red;
-}
 .address,
 .social-links-title,
 .subscribe-title{
