@@ -31,14 +31,13 @@ background for the footer: #2F303A */
 /* header  */
 
 .logo-link{
+    color: var(--primary-title-color);
+}
+.logo-link-word-web{
     color: var(--accent-color);
 }
-.logo-link-word-studio{
-    color: #212121;
-}
     /* why focus doesnt apply to complete logo?? */
-.logo-link:focus,
-.logo-link-word-studio:focus{
+.logo-link:focus{
     color: red;
 }
 .site-nav .link{
