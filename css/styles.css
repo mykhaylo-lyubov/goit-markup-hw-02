@@ -5,7 +5,7 @@ accent color #2196F3
 primary text color #212121
 secondary text color #757575 
 white text #FFFFFF
- primary features color #F5F4FA
+primary features color #F5F4FA
 footer address color: rgba(255, 255, 255, 0.6);
 social links primary background: rgba(255, 255, 255, 0.1);
 dev string color: rgba(255, 255, 255, 0.4);
@@ -13,103 +13,99 @@ backgroung for the features: #F5F4FA
 background for the footer: #2F303A */
 
 :root {
-    --accent-color: #2196F3;
-    --primary-text-color: #757575;
-    --primary-title-color: #212121;
-    --text-on-the-button-color: #ffffff;
-    --portfolio-body-nav-button-primary-color: #F5F4FA;
+  --accent-color: #2196f3;
+  --primary-text-color: #757575;
+  --primary-title-color: #212121;
+  --text-on-the-button-color: #ffffff;
+  --portfolio-body-nav-button-primary-color: #f5f4fa;
 }
 
-
-.page{
-    background-color: #ffffff;
+.page {
+  background-color: #ffffff;
 }
-.list{
-    list-style: none;
+.list {
+  list-style: none;
 }
 
 /* header  */
 
-.logo-link{
-    color: var(--primary-title-color);
+.logo-link {
+  color: var(--primary-title-color);
 }
 .logo-link-word-web,
-.logo-link-footer{
-    color: var(--accent-color);
+.logo-link-footer {
+  color: var(--accent-color);
 }
-    /* why focus doesnt apply to complete logo?? */
-.logo-link:focus,
-.logo-link-footer:focus{
-    color: var(--accent-color);
-}
-.site-nav .link{
-    color: var(--primary-title-color);
+
+.site-nav .link {
+  color: var(--primary-title-color);
 }
 .site-nav .link:hover,
 .site-nav .link:focus,
 .auth-nav .link:hover,
-.auth-nav .link:focus{
-    color: var(--accent-color);
+.auth-nav .link:focus {
+  color: var(--accent-color);
 }
 .auth-nav .link,
-main .text{
-    color: var(--primary-text-color);
+main .text {
+  color: var(--primary-text-color);
 }
 /* main section */
 
 main {
-    color: var(--primary-title-color);
+  color: var(--primary-title-color);
 }
 
 /* hero section */
 
-.hero-title{
-    color: #ffffff;
+.hero-title {
+  color: #ffffff;
 }
-.button{
-    background-color: var(--accent-color);
-    color: var(--text-on-the-button-color);
+.button {
+  background-color: var(--accent-color);
+  color: var(--text-on-the-button-color);
 }
 
 /* what-we-are-doing-section */
 
-.production .title{
-    color: var(--text-on-the-button-color);
+.production .title {
+  color: var(--text-on-the-button-color);
 }
 
 /* our-team */
-.team .profession{
-    color: var(--primary-text-color);
+.team .profession {
+  color: var(--primary-text-color);
 }
 
 .social-links > li > a:hover,
-.social-links > li > a:focus{
-    background-color: var(--accent-color);
+.social-links > li > a:focus {
+  background-color: var(--accent-color);
 }
 
 /* clients */
 
 /* footer */
 
-.logo-link-word-studio{
-    color: #ffffff;
+.logo-link-word-studio {
+  color: #ffffff;
 }
 
 .address,
 .social-links-title,
-.subscribe-title{
-    color: var(--text-on-the-button-color);
+.subscribe-title {
+  color: var(--text-on-the-button-color);
 }
-.footer-contacts{
-    color: rgba(255, 255, 255, 0.6)
+.footer-contacts {
+  color: rgba(255, 255, 255, 0.6);
 }
 
+.footer-contacts:hover,
 .footer-contacts:focus {
-    color: blue;
+  color: var(--accent-color);
 }
 
-.authors{
-    color: rgba(255, 255, 255, 0.4)
+.authors {
+  color: rgba(255, 255, 255, 0.4);
 }
 
 /* portfolio */
@@ -118,26 +114,29 @@ main {
 body-nav-button-primary-color #F5F4FA */
 
 .portfolio {
-    color: var(--primary-title-color);
+  color: var(--primary-title-color);
 }
 
-.portfolio .nav-link {
-    color: var(--primary-title-color);
-    background-color: var(--portfolio-body-nav-button-primary-color);
+/* background color for the footer > div only for better view */
+footer > div {
+  background-color: grey;
 }
 
-/* why focus doesnt apply??  */
-.portfolio .nav-link:hover,
-.portfolio .nav-link:focus {
-    background-color: var(--accent-color);
+.portfolio .button-portfolio {
+  color: var(--primary-title-color);
+  background-color: var(--portfolio-body-nav-button-primary-color);
+}
+
+.portfolio .button-portfolio:hover,
+.portfolio .button-portfolio:focus {
+  background-color: var(--accent-color);
+  color: var(--text-on-the-button-color);
 }
 
 .portfolio-preview .title {
-    color: var(--primary-title-color);
+  color: var(--primary-title-color);
 }
 
 .portfolio .description {
-    color: var(--primary-text-color);
+  color: var(--primary-text-color);
 }
-
-
