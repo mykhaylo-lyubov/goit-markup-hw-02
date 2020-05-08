@@ -22,6 +22,7 @@ background for the footer: #2F303A */
 
 .page {
   background-color: #ffffff;
+  font-family: roboto, sans-serif;
 }
 .list {
   list-style: none;
@@ -31,15 +32,33 @@ background for the footer: #2F303A */
 
 .logo-link {
   color: var(--primary-title-color);
+
+  font-family: raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+
+  text-decoration: none;
 }
 .logo-link-word-web,
 .logo-link-footer {
   color: var(--accent-color);
 }
 
+.header-font {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  text-decoration: none;
+}
+
 .site-nav .link {
   color: var(--primary-title-color);
 }
+
 .site-nav .link:hover,
 .site-nav .link:focus,
 .auth-nav .link:hover,
@@ -70,6 +89,10 @@ main {
 
 .production .title {
   color: var(--text-on-the-button-color);
+}
+
+.bg-color {
+  background-color: #2196f3; /* additional color for easy understanding */
 }
 
 /* our-team */
