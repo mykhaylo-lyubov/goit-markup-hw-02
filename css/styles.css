@@ -285,6 +285,10 @@ body-nav-button-primary-color #F5F4FA */
   color: var(--text-on-the-button-color);
 }
 
+.portfolio-preview-img {
+  text-decoration: none;
+}
+
 .portfolio-preview .title {
   color: var(--primary-title-color);
 
@@ -292,10 +296,20 @@ body-nav-button-primary-color #F5F4FA */
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-
-  text-decoration: none;
 }
 
 .portfolio .description {
   color: var(--primary-text-color);
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+}
+
+.portfolio-preview .text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.56;
+  letter-spacing: 0.03em;
 }
