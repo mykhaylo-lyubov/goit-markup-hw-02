@@ -206,6 +206,7 @@ main {
 }
 
 .footer .address {
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -214,6 +215,7 @@ main {
 .footer-contacts {
   color: rgba(255, 255, 255, 0.6);
 
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
