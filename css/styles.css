@@ -41,7 +41,7 @@ background for the footer: #2F303A */
 
   text-decoration: none;
 }
-.logo-link-word-web,
+.logo-link > span,
 .logo-link-footer {
   color: var(--accent-color);
 }
@@ -195,7 +195,7 @@ main {
   text-decoration: none;
 }
 
-.logo-link-word-studio {
+.logo-link-footer > span {
   color: #ffffff;
 }
 
