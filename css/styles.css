@@ -18,6 +18,7 @@ background for the footer: #2F303A */
   --primary-title-color: #212121;
   --text-on-the-button-color: #ffffff;
   --portfolio-body-nav-button-primary-color: #f5f4fa;
+  --authors-string-color: rgba(255, 255, 255, 0.4);
 }
 
 .page {
@@ -251,7 +252,7 @@ main {
 }
 
 .authors {
-  color: rgba(255, 255, 255, 0.4);
+  color: var(--authors-string-color);
 
   font-weight: 400;
   font-size: 12px;
