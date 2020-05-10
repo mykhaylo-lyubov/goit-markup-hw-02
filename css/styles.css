@@ -131,6 +131,10 @@ main {
   text-align: center;
 }
 
+.production a {
+  text-decoration: none;
+}
+
 .production .title {
   color: var(--text-on-the-button-color);
 
